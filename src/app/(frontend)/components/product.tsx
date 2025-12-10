@@ -9,8 +9,8 @@ export default async function Home() {
     const docs = data.docs || [];
 
     return (
-        <div className=" mx-auto max-w-[1200px]">
-        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 p-10">
+        <div className=" mx-auto max-w-[1200px] p-10">
+        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5">
             {docs.map((item: any) => (
                 <div key={item.id} className="w-80 shadow  rounded-lg">
                     {item?.image?.url && (
