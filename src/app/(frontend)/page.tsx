@@ -1,13 +1,13 @@
 
 import React from 'react'
-import Product from "./components/product"
+import Cards from "./components/cards"
 
 
 import "./global.css"; 
 export default function Home(){
   return(
     <div>
-    <Product/>
+    <Cards/>
     </div>
   )
 }
